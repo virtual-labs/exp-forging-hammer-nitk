@@ -2,37 +2,85 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Free vibrations is when system oscillates when excited:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "once",
+        "b": "periodically",
+        "c": "both a and b",
+        "d":"None of the above"
+        
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "In free vibrations no external forces are acting after initial excitation ",
+        "b": "In forced vibrations the system is periodically excited",
+        "c": "option a is correct",
+        "d": "option a is correct"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Examples of free vibrations:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Pendulum of a clock",
+        "b": "Swings",
+        "c": "Exciting a cantilever beam",
+        "d": "All the above"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "The pendulum is excited once after the grandfather clock is keyed",
+        "b": "The swing is pushed once, after which it stops after some time",
+        "c": "The deflection of the beam is maximum in the beginnig and after some time it completely stops",
+        "d": "Options a,b and c are examples of free vibrations"
       },
-      "correctAnswer": "c",
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Right hand side of governing equation for free vibrations is ",
+      "answers": {
+        "a": "Zero",
+        "b": "A Function",
+        "c": "Imaginary number",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "Absence of periodical exciting source",
+        "b": "Forced vibration has a source which copensates for the energy loss",
+        "c": "The external soucre is always mathematically defined",
+        "d": "option a is correct"
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Identify types of excitations",
+      "answers": {
+        "a": "Harmonic",
+        "b": "Periodic",
+        "c": "Random",
+        "d": "All of the above"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "If the spring displacement is high then the frequency of the spring increases.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": "Option b is right",
+        "b": "Higher displacement means low stifness, impling lower frequency"
+        },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]

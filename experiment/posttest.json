@@ -2,38 +2,86 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "When a vehicle moves on the road, the resonant frequency depends on:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Mass, stiffness of the spring, speed ",
+        "b": "Speed of the vehicle only",
+        "c": "Speed of the vehicle and the stiffness of the suspension spring",
+        "d":"Amplitude of the undulations"
+        
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Resonance depends on mass and stiffness",
+        "b": "In forced vibrations the system is periodically excited",
+        "c": "option a is correct",
+        "d": "option a is correct"
       },
       "correctAnswer": "a",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "It is not safe to operate a machine:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Below natural frequency",
+        "b": "Above natural frequency",
+        "c": "At natural frequency",
+        "d": "None of the above"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "It is safe to operate below natural frequency",
+        "b": "It is safe to operate above natural frequency",
+        "c": "Since the amplitude is maximum at natural frequency, it is not safe to operate",
+        "d": "option c is correct"
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "For free vibration, at t=0 deflection of cantilever beam is ",
+      "answers": {
+        "a": "Zero",
+        "b": "Maximum",
+        "c": "Minimum",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "At t=0, the beam wont be at rest",
+        "b": "Force is applied at t=o",
+        "c": "It reaches minimum deflection before all eneregy is lost",
+        "d": "Option b is correct"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "For an undamped system, the amplitude does not change with time ",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": "Theoretically, since there is no energy loss, the amplitude does not change with time",
+        "b": "Option a is correct"
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "A forging system should have a heavy base:",
+      "answers": {
+        "a": "To shift natural frequency from excitation frequency",
+        "b": "As all modes are excited from the impact",
+        "c": "If not the final workpiece will deform",
+        "d": "All the above"
+      },
+      "explanations": {
+        "a": "If impact force and the first natural frequency matches, the billet will break",
+        "b": "Increased stifness will ensure a considerable shift in natural frequency",
+        "c": "Deformation should be to a minimum, when in a forge",
+        "d": "All the above factors contribute for having a heavy base"
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
     }
   ]
 }
