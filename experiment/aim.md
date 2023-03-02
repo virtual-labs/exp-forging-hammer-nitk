@@ -1,1 +1,1 @@
-### Aim of the experiment
+To visualize response of forging hammer as a 2 DOF system under free vibrations.
