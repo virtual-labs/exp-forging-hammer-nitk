@@ -7,7 +7,8 @@
         "a": "Mass, stiffness of the spring, speed ",
         "b": "Speed of the vehicle only",
         "c": "Speed of the vehicle and the stiffness of the suspension spring",
-        "d": "Amplitude of the undulations"
+        "d":"Amplitude of the undulations"
+        
       },
       "explanations": {
         "a": "Resonance depends on mass and stiffness",
@@ -33,7 +34,7 @@
         "d": "option c is correct"
       },
       "correctAnswer": "c",
-      "difficulty": "advanced"
+      "difficulty": "intermediate"
     },
     {
       "question": "For free vibration, at t=0 deflection of cantilever beam is ",
@@ -63,7 +64,7 @@
         "b": "Option a is correct"
       },
       "correctAnswer": "a",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
     },
     {
       "question": "A forging system should have a heavy base:",

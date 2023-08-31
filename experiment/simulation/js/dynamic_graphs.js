@@ -1,5 +1,5 @@
 class DynamicGraph  {
-    constructor(x, y, h, w, yLabel, xLabel, minX, maxX, minY, maxY, func) {
+    constructor(x, y, h, w, yLabel, xLabel, minX, maxX, minY, maxY, func , tplgy) {
         this.length = 0;
         this.x = x;
         this.y = y;
@@ -13,6 +13,7 @@ class DynamicGraph  {
         this.yLabel = yLabel;
         this.graphs = [];
         this.function = func;
+        this.tplgy = tplgy;
     }
 
     initialise()    {
@@ -31,7 +32,7 @@ class DynamicGraph  {
             }
             temp.push([x, y])
         }
-        temp.label = [255,0,0];
+        temp.label = [255,0,this.tplgy];
         this.graphs.push(temp);
     }
 
