@@ -1,1 +1,1 @@
-## Forging hammer as 2DOF system - Free Vibration
+6. Forging hammer as 2DOF system - Free Vibration

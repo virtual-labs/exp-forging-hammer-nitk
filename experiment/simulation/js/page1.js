@@ -48,7 +48,13 @@ function runPage1() {
     text('Mode 1 = ' + spring1.ar1.toFixed(4) , 310, 510);
     text('Mode 2 = ' + spring1.ar2.toFixed(4) , 310, 550);
     }*/
-    // text('ω1/ω2 = ' + ((spring1.w1/spring1.w2)).toFixed(4) + " rad/s", 310, 510)
+    textSize(14);
+    textFont("Comic Sans MS")
+    fill(231, 114, 43);
+ text('ω1/ω2 = ' + ((spring1.w1/spring1.w2)).toFixed(4) + " rad/s", 310, 510)
+ text('ω1 = ' + ((spring1.w1)).toFixed(4) + " rad/s", 310, 550)
+ text('ω2 = ' + ((spring1.w2)).toFixed(4) + " rad/s", 100, 510)
+ text('X1/X2 = ' + ((spring1.x1/spring1.x2)).toFixed(4) + " rad/s", 100, 550)/
     spring1.initialise(F0.inp, k3.inp,k1.inp,m1.inp,k2.inp,m2.inp , x10.inp , x20.inp);
     spring1.update(t, factor);
     spring1.show(0, 1, 0);

@@ -91,8 +91,8 @@ class System  {
        this.ph1 = Math.asin(this.term1*3.1428/180);
        this.ph2 = Math.asin(this.term2*3.1428/180);
 
-       console.log(this.term1);
-       console.log(this.term2);
+       console.log("w1", this.w1);
+       console.log("w2",this.w2);
 
 
     }
@@ -190,7 +190,7 @@ class System  {
     static mag_func1(x, obj)  {
 
         let mu = obj.m1/obj.m2;
-        let temp1 = x;
+        let temp1 = x/2;
         let temp2 = Math.pow(((obj.w2*x)/obj.w1),2);
         let denom = ((1+mu)*temp2) + Math.pow(temp1,2);
         let solution = (1-Math.pow(temp1,2)) / ((Math.pow(temp1,2)*temp2)-denom+1)
@@ -203,7 +203,7 @@ class System  {
     }
     static mag_func2(x, obj)  {
         let mu = obj.m1/obj.m2;
-        let temp1 = x;
+        let temp1 = x/2;
         let temp2 = Math.pow(((obj.w2*x**x)/obj.w1),2);
         let denom = ((1+mu)*temp2) +Math.pow(temp1,2);
         let solution = (1)/ ((Math.pow(temp1,2)*temp2)-denom+1);
