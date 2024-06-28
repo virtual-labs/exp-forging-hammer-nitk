@@ -16,7 +16,5 @@ class Button {
 
     draw()  {
         image(this.icon, this.x, this.y);
-        // if
-        // cursor('not-allowed')
     }
 }

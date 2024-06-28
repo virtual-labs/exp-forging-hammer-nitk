@@ -1,31 +1,28 @@
-Given Data:
-m<sub>1</sub> - Mass of the base (kg) <br>
-k<sub>1</sub> - Stiffness of the base (N/m) <br>
-m<sub>2</sub> - Mass of the anvil (kg) <br>
-k<sub>2</sub> - Stiffness of the anvil (N/m) <br>
+### Procedure
 
-1. On clicking the simulation tab, the first page is displayed as shown below.
-<center>
+<div style="text-align:left">
+  Click on the Simulation icon <img src="images/simulation.png" alt="Alt text" style="height:80px; width:80px;">  to view the simulation. 
 
-![Alt text](images/1.png)
+   ![Alt text](images/Simscreen1.png)
+   
+   In order to view the variable section click on the Variable icon. <img src="images/var1.png" alt="Alt text" style="height:80px; width:80px;">
 
-</center>
-Here, the user can set k<sub>1</sub>, m<sub>1</sub>, k<sub>2</sub> and m<sub>2</sub> to view different responses.
+   ![Alt text](images/var2.png)
 
-<br>
+   Click on Play icon <img src="images/play1.png" alt="Alt text" style="height:80px; width:80px;"> to run the simulation and click on Pause icon <img src="images/pause.png" alt="Alt text" style="height:80px; width:80px;"> to stop it.
 
-2. On clicking the next button, the mode shapes will be displayed, while the simulation is running.
-<center>
+   Click on the Next icon  <img src="images/next2.png" alt="Alt text" style="height:80px; width:80px;"> to go further.  
 
-![Alt text](images/2.png)
+   ![Alt text](images/screen1.png)
 
-</center>
+   Click on the Next or Prev icon<img src="images/prenex.png" alt="Alt text" style="height:80px; width:80px;"> to cycle through different pages. 
 
-<br>
+   ![Alt text](images/screen2.png)
 
-3. The third page shows the frequency response curves.
-<center>
+  Click on the Result icon  <img src="images/result.png" alt="Alt text" style="height:80px;width:80px;"> to view the result tab.
+  
+  ![Alt text](images/resultscreen.png)
 
-![Alt text](images/3.png)
+  Click on the Refresh icon  <img src="images/refresh.png" alt="Alt text" style="height:80px;width:80px;"> to restart the experiment.
 
-</center>
+</div>
