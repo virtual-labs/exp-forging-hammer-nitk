@@ -1,6 +1,6 @@
 ### Procedure
 
-1. Click on the Simulation icon <img src="images/simulation.png" alt="Alt text" > to view the simulation.
+1. Click on the Simulation icon <img src="images/simulation.png" alt="Alt text" width="50" height="50"> to view the simulation.
 
    ![Alt text](images/Simscreen1.png)
 
