@@ -4,7 +4,7 @@
     {
       "question": "Free vibrations is when system oscillates when excited:",
       "answers": {
-        "a": "once",
+        "a": "with initial conditions",
         "b": "periodically",
         "c": "both a and b",
         "d":"None of the above"

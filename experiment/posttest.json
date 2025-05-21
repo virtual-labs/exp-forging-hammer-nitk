@@ -4,7 +4,7 @@
     {
       "question": "When a vehicle moves on the road, the resonant frequency depends on:",
       "answers": {
-        "a": "Mass, stiffness of the spring, speed ",
+        "a": "Mass, stiffness of the suspension spring, speed ",
         "b": "Speed of the vehicle only",
         "c": "Speed of the vehicle and the stiffness of the suspension spring",
         "d":"Amplitude of the undulations"
