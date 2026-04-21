@@ -1,0 +1,87 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Free vibrations is when system oscillates when excited:",
+      "answers": {
+        "a": "with initial conditions",
+        "b": "periodically",
+        "c": "both a and b",
+        "d":"None of the above"
+        
+      },
+      "explanations": {
+        "a": "Correct, the right answer is (a). In free vibrations, no external forces are acting after initial excitation ",
+        "b": "option a is correct. In forced vibrations, the system is periodically excited",
+        "c": "option a is correct. In free vibrations, no external forces are acting after initial excitation. In forced vibrations, the system is periodically excited",
+        "d": "option a is correct. In free vibrations, no external forces are acting after initial excitation. In forced vibrations, the system is periodically excited"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Examples of free vibrations:",
+      "answers": {
+        "a": "Pendulum of a clock",
+        "b": "Swings",
+        "c": "Exciting a cantilever beam",
+        "d": "All the above"
+      },
+      "explanations": {
+        "a": "The right answer is (d). The pendulum is excited once after the grandfather clock is keyed.",
+        "b": "The right answer is (d). The swing is pushed once, after which it stops after some time.",
+        "c": "The right answer is (d). The deflection of the beam is maximum in the beginnig and after some time it completely stops.",
+        "d": "Options a,b and c are examples of free vibrations. The pendulum is excited once after the grandfather clock is keyed. The swing is pushed once, after which it stops after some time. The deflection of the beam is maximum in the beginnig and after some time it completely stops."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Right hand side of governing equation for free vibrations is ",
+      "answers": {
+        "a": "Zero",
+        "b": "A Function",
+        "c": "Imaginary number",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "Correct, the right answer is (a). Right hand side of governing equation for free vibrations is 0 because of the Absence of periodical exciting source.",
+        "b": "The right answer is (a). Forced vibration has a source which compensates for the energy loss, not free vibration.",
+        "c": "The right answer is (a). The external source is always mathematically defined",
+        "d": "option a is correct. Right hand side of governing equation for free vibrations is 0 because of the Absence of periodical exciting source."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Identify types of excitations",
+      "answers": {
+        "a": "Harmonic",
+        "b": "Periodic",
+        "c": "Random",
+        "d": "All of the above"
+      },
+      "explanations": {
+        "a": "The right answer is (d). The excitations can be harmonic but also can be periodic and random.",
+        "b": "The right answer is (d). The excitations can be periodic but also can be Harmonic and random.",
+        "c": "The right answer is (d). The excitations can be random but also can be periodic and harmonic.",
+        "d": "Correct, the right answer is (d). The excitations can be harmonic or periodic or random."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "If the spring displacement is high then the frequency of the spring increases.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": "Option b is right. Higher displacement means low stifness, impling lower frequency.",
+        "b": "Correct, Option b is right. Higher displacement means low stifness, impling lower frequency"
+        },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}

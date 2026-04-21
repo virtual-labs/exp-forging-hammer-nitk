@@ -1,0 +1,87 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "When a vehicle moves on the road, the resonant frequency depends on:",
+      "answers": {
+        "a": "Mass, stiffness of the suspension spring, speed ",
+        "b": "Speed of the vehicle only",
+        "c": "Speed of the vehicle and the stiffness of the suspension spring",
+        "d":"Amplitude of the undulations"
+        
+      },
+      "explanations": {
+        "a": "Correct, the right answer is (a). Resonance depends on mass of the vehicle, stiffness of the spring and speed of the vehicle.",
+        "b": "The right answer is (a). Resonance depends on mass of the vehicle, stiffness of the spring and speed of the vehicle. In forced vibrations the system is periodically excited",
+        "c": "option a is correct. Resonance depends on mass of the vehicle, stiffness of the spring and speed of the vehicle.",
+        "d": "option a is correct. Resonance depends on mass of the vehicle, stiffness of the spring and speed of the vehicle."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "It is not safe to operate a machine:",
+      "answers": {
+        "a": "Below natural frequency",
+        "b": "Above natural frequency",
+        "c": "At natural frequency",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "The right answer is (a). It is safe to operate below natural frequency.",
+        "b": "The right answer is (a). It is safe to operate above natural frequency.",
+        "c": "Correct, the right answer is (a). Since the amplitude is maximum at natural frequency, it is not safe to operate at natural frequency.",
+        "d": "option c is correct. It is safe to operate below and above the natural frequency. Since the amplitude is maximum at natural frequency, it is not safe to operate at natural frequency."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "For free vibration, at t=0 deflection of cantilever beam is ",
+      "answers": {
+        "a": "Zero",
+        "b": "Maximum",
+        "c": "Minimum",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "The right answer is (b). At t=0, the beam won't be at rest.",
+        "b": "Correct, the right answer is (b). Force is applied at t=o. So, the deflection is maximum.",
+        "c": "The right answer is (b). It reaches minimum deflection before all eneregy is lost",
+        "d": "Option b is correct. Force is applied at t=o. So, the deflection is maximum. "
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "For an undamped system, the amplitude does not change with time ",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": "Correct, the right answer is (a). Theoretically, since there is no energy loss, the amplitude does not change with time.",
+        "b": "Option a is correct. Theoretically, since there is no energy loss, the amplitude does not change with time"
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "A forging system should have a heavy base:",
+      "answers": {
+        "a": "To shift natural frequency from excitation frequency",
+        "b": "As all modes are excited from the impact",
+        "c": "If not the final workpiece will deform",
+        "d": "All the above"
+      },
+      "explanations": {
+        "a": "The right answer is (d). If impact force and the first natural frequency matches, the billet will break. So, it should have heavy base to shift natural frequency from excitation frequency.",
+        "b": "The right answer is (d). Increased stifness will ensure a considerable shift in natural frequency.",
+        "c": "The right answer is (d). Deformation should be to a minimum, when in a forge. So, a forge should have a heavy base to reduce deform.",
+        "d": "Correct, the right answer is (d). All the above factors contribute for having a heavy base. So, it should have heavy base to shift natural frequency from excitation frequency. If impact force and the first natural frequency matches, the billet will break. Increased stifness will ensure a considerable shift in natural frequency. Deformation should be to a minimum, when in a forge."
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    }
+  ]
+}
